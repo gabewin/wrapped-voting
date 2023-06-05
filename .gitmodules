@@ -7,3 +7,6 @@
 [submodule "solmate-nft/lib/forge-std"]
 	path = solmate-nft/lib/forge-std
 	url = https://github.com/foundry-rs/forge-std
+[submodule "solmate-nft/lib/solmate"]
+	path = solmate-nft/lib/solmate
+	url = https://github.com/transmissions11/solmate
