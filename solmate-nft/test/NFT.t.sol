@@ -122,15 +122,3 @@ contract NFTTest is Test {
         vm.stopPrank();
     }
 }
-
-contract Receiver is ERC721TokenReceiver {
-    function onERC721Received(
-        address operator,
-        address from,
-        uint256 id,
-        bytes calldata data
-    ) external override returns (bytes4) {
-        return this.onERC721Received.selector;
-    }
-}
-
